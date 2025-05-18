@@ -4,3 +4,29 @@
  .me-5 img{
     margin-right: 15px;
  }
+.card:hover{
+    background-color: #0056b3;
+color: white;
+transition: background-color 0.3s, color 0.3s;
+}
+.container{
+
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
+.content{
+    height: 170px;
+    width: 350px;
+    overflow: hidden;
+    margin: 0px 20px;
+}
+.content img{
+    height: 100%;
+    width: 100%;
+    transition: all .75s ease;
+}
+.content:hover img{
+    transform: scale(1.1);
+}
