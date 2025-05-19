@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Make Your Way-Bata</title>
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -45,15 +45,23 @@
       </button>
       <!-- 2nd nav -->
       <div class="container-fluid sticky-top collapse navbar-collapse justify-content-center">
-        <ul class="navbar-nav gap-3">
-          <li class="nav-item"><a class="nav-link" href="#">MEGA DEALS</a></li>
+        <ul class="navbar-nav gap-3 t-color">
+          <li class="nav-item active"><a class="nav-link" href="#">MEGA DEALS</a></li>
           <li class="nav-item"><a class="nav-link" href="#">SNEAKER STUDIO</a></li>
           <li class="nav-item"><a class="nav-link" href="#">BRAND</a></li>
           <li class="nav-item"><a class="nav-link" href="#">MEN</a></li>
           <li class="nav-item"><a class="nav-link" href="#">WOMEN</a></li>
           <li class="nav-item"><a class="nav-link" href="#">CHILDREN</a></li>
           <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">BATA CLUB</a></li>
+          <!-- d-down -->
+          <div class="dropdown">
+          <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">BATA CLUB</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bata Club Points</a></li>
+            <li><a class="dropdown-item" href="register.html">Register Yourself</a></li>
+            <li><a class="dropdown-item" href="#">Bata Club Benefits</a></li>
+          </ul>
+        </div>
           <li class="nav-item"><a class="nav-link" href="#">B-MAG</a></li>
         </ul>
       </div>
@@ -73,16 +81,16 @@
         aria-label="Slide 4"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
+      <div class="carousel-item active" data-bs-interval="1000">
         <img src="img/banner/1.webp" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="1000">
         <img src="img/banner/2.webp" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="1000">
         <img src="img/banner/3.webp" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="1000">
         <img src="img/banner/4.webp" class="d-block w-100" alt="...">
       </div>
       <serioud\>
@@ -202,20 +210,33 @@
 </div>
 
 <!-- row-last -->
-     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="img/row-last/1.webp" class="img-fluid zoom" alt="Example Image 1">
-            </div>
-            <div class="col-md-4">
-                <img src="img/row-last/2.webp" class="img-fluid zoom" alt="Example Image 2">
-            </div>
-            <div class="col-md-4">
-                <img src="img/row-last/3.webp" class="img-fluid zoom" alt="Example Image 3">
-            </div>
-        </div>
-    </div>
+  <h2 class="margin">PICK YOUR FAVORITES</h2>
 
+<div class="container mt-5 mb-5">
+  <div class="row">
+<div class="card col-md-4">
+  <img src="img/row-last/1.webp" class="card-img-top zoom" alt="...">
+  <div class="card-body" style="text-align: center;">
+    <p class="card-text"><h2>Ladis Casual</h2><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque perspiciatis quis totam quo commodi. Accusamus similique</p>
+  </div>
+</div>
+
+<div class="card col-md-4">
+  <img src="img/row-last/2.webp" class="card-img-top zoom" alt="...">
+  <div class="card-body" style="text-align: center;">
+    <p class="card-text"><h2>Mens Formal</h2><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque perspiciatis quis totam quo commodi. Accusamus similique</p>
+  </div>
+</div>
+
+<div class="card col-md-4">
+  <img src="img/row-last/3.webp" class="card-img-top zoom" alt="...">
+  <div class="card-body" style="text-align: center;">
+    <p class="card-text"><h2>Ladis Bags</h2><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque perspiciatis quis totam quo commodi. Accusamus similique</p>
+  </div>
+</div>
+
+</div>
+</div>
 
 
 <!-- footer -->
@@ -285,7 +306,7 @@
       <div class="col text-center">
         <p>Sign up for our Newsletter</p>
         <p>&copy; 2024 Bata Shoe Company Bangladesh Ltd. Tongi, Postal code - 1710, Gazipur, Bangladesh</p>
-        <div class="d-flex justify-content-center gap-2">
+        <div class="d-flex justify-content-center gap-2 pb-5 pt-2">
           <img src="img/footer/visa.avif" alt="Visa" class="mr-2" width="30px" height="30px">
           <img src="img/footer/mastercard.avif" alt="MasterCard" class="mr-2" width="30px" height="30px">
           <img src="img/footer/amex.avif" alt="American Express" width="30px" height="30px">

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-md" style="background-color: #f1f2f6;">
+    <div class="container-fluid navbar-nav d-flex justify-content-around">
+      <div>
+        <img src="img/icon/location.svg" alt="" &nbsp;> FIND A STORE | CUSTOMER CARE: 09666200300
+      </div>
+      <div>
+        <a href="file:///F:/ASSAD%20(WDPF-65)/Project/Bootstrap-Project/batabd.html"><img src="img/logo/logo.png"
+            alt=""></a>
+      </div>
+      <div class="me-5">
+        <a href="#"><img src="img/icon/user.svg" alt=""></a>
+        <a href="#"><img src="img/icon/heart.svg" alt="" width="23" height="23"></a>
+        <img src="img/icon/whatsapp.avif" alt="" width="30" height="30">
+        <img src="img/icon/cart.svg" alt="" width="23" height="23">
+      </div>
+    </div>
+    <div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- 2nd nav -->
+      <div class="container-fluid sticky-top collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav gap-3 t-color">
+          <li class="nav-item active"><a class="nav-link" href="#">MEGA DEALS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">SNEAKER STUDIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BRAND</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">MEN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">WOMEN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">CHILDREN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
+          <!-- d-down -->
+          <div class="dropdown">
+          <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">BATA CLUB</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bata Club Points</a></li>
+            <li><a class="dropdown-item" href="#">Register Yourself</a></li>
+            <li><a class="dropdown-item" href="#">Bata Club Benefits</a></li>
+          </ul>
+        </div>
+          <li class="nav-item"><a class="nav-link" href="#">B-MAG</a></li>
+        </ul>
+      </div>
+  </nav>
+
+<!-- register-body -->
+  <div class="container mt-5 pb-5">
+    <h2 class="text-center">REGISTRATION</h2>
+    <p class="text-center">Do you like Bata? You will love Bata Club! Register now for exclusive discounts and previews.</p>
+    <form>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail *</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mobile" class="form-label">Mobile No. *</label>
+        <div class="input-group">
+          <span class="input-group-text">+880</span>
+          <input type="text" class="form-control" id="mobile" required>
+          <button class="btn btn-secondary" type="button">Send OTP</button>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="otp" class="form-label">OTP *</label>
+        <input type="text" class="form-control" id="otp" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password *</label>
+        <input type="password" class="form-control" id="password" required>
+        <small class="form-text">At least 9 characters, 1 uppercase, 1 lowercase, 1 number, and 1 special character.</small>
+      </div>
+      <div class="mb-3">
+        <label for="confirm-password" class="form-label">Confirm Password *</label>
+        <input type="password" class="form-control" id="confirm-password" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Title *</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="title" id="mr" value="Mr" required>
+          <label class="form-check-label" for="mr">Mr</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="title" id="ms" value="Ms" required>
+          <label class="form-check-label" for="ms">Ms</label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="first-name" class="form-label">First Name *</label>
+        <input type="text" class="form-control" id="first-name" required>
+      </div>
+      <div class="mb-3">
+        <label for="last-name" class="form-label">Last Name *</label>
+        <input type="text" class="form-control" id="last-name" required>
+      </div>
+      <div class="mb-3">
+        <label for="referral-code" class="form-label">Referral Code</label>
+        <input type="text" class="form-control" id="referral-code">
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="agree" required>
+          <label class="form-check-label" for="agree">I agree to the Terms and Conditions *</label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">CREATE AN ACCOUNT</button>
+    </form>
+  </div>
+
+<!-- footer -->
+<footer class="bg-dark text-white pt-4">
+  <div class="container" mb-3>
+    <div class="row">
+      <div class="col-md-2">
+        <h5>ABOUT</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">About Us</a></li>
+          <li><a href="#" class="text-white">Careers</a></li>
+          <li><a href="#" class="text-white">Awards & Recognition</a></li>
+          <li><a href="#" class="text-white">Investors</a></li>
+          <li><a href="#" class="text-white">Bata Franchise</a></li>
+          <li><a href="#" class="text-white">Share Department</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5>INFORMATION</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">TERMS & CONDITIONS</a></li>
+          <li><a href="#" class="text-white">Payment Options</a></li>
+          <li><a href="#" class="text-white">Privacy Policy</a></li>
+          <li><a href="#" class="text-white">Franchise Programme</a></li>
+          <li><a href="#" class="text-white">Coverage areas</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5>POPULAR BRANDS</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Bata</a></li>
+          <li><a href="#" class="text-white">Hush Puppies</a></li>
+          <li><a href="#" class="text-white">Power</a></li>
+          <li><a href="#" class="text-white">Comfit</a></li>
+          <li><a href="#" class="text-white">Weinbrenner</a></li>
+          <li><a href="#" class="text-white">North Star</a></li>
+          <li><a href="#" class="text-white">Marie Claire</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5>CUSTOMER SERVICE</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">FAQs</a></li>
+          <li><a href="#" class="text-white">MyBata</a></li>
+          <li><a href="#" class="text-white">Bata Stores</a></li>
+          <li><a href="#" class="text-white">All About Feet</a></li>
+          <li><a href="#" class="text-white">Contact Info</a></li>
+          <li><a href="#" class="text-white">Report Issue</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>INFO</h5>
+        <p>Bata Shoe Company Bangladesh Ltd.<br>
+          Tongi Gazipur, Bangladesh.</p>
+        <p>Call us at: 09666200300 (9am-9pm)<br>
+          Email: bd.customercare@bata.com</p>
+        <div class="d-flex">
+          <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-4">
+      <div class="col text-center">
+        <p>Sign up for our Newsletter</p>
+        <p>&copy; 2024 Bata Shoe Company Bangladesh Ltd. Tongi, Postal code - 1710, Gazipur, Bangladesh</p>
+        <div class="d-flex justify-content-center gap-2 pb-5 pt-2">
+          <img src="img/footer/visa.avif" alt="Visa" class="mr-2" width="30px" height="30px">
+          <img src="img/footer/mastercard.avif" alt="MasterCard" class="mr-2" width="30px" height="30px">
+          <img src="img/footer/amex.avif" alt="American Express" width="30px" height="30px">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- JS -->
+  <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
